@@ -1,0 +1,56 @@
+.ruleta {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #ruleta-canvas {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .participantes, .premios {
+    margin-bottom: 20px;
+  }
+  
+  #participantes-lista, #premios-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #participantes-lista li, #premios-lista li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #agregar-participante, #quitar-participante, #agregar-premio, #quitar-premio {
+    margin-top: 10px;
+  }
+  
+  #girar-ruleta {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #girar-ruleta:hover {
+    background-color: #3e8e41;
+  }
+  
+  .resultado {
+    margin-top: 20px;
+  }
+  
+  #resultado-texto {
+    font-size: 24px;
+    font-weight: bold;
+  }
