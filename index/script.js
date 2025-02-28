@@ -148,7 +148,8 @@ function girarRuleta() {
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
         ctx.fillStyle = "black";
-        ctx.fillText(`El ganador es: ${ganador} - Premio: ${premioGanado.nombre}`, canvas.width / 2, canvas.height / 2);
+        ctx.fillText(`El ganador es: ${ganador}`, canvas.width / 2, canvas.height / 2);
+        ctx.fillText(`Premio: ${premioGanado.nombre}`, canvas.width / 2, canvas.height / 3);
       }
     }, 16);
   }
